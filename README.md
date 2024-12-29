@@ -1,8 +1,21 @@
-# React + Vite
+#MOVIE265
+Welcome to  **MOVIE265**, a trial project.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Prerequisite
+you need to have *nodejs* installed, you can follow the folliwng link [nodejs](https://nodejs.org/en/download/)
 
-Currently, two official plugins are available:
+Inorder to start, clone the repository by writing the following command in your desired directory
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*git clone https://github.com/BSC-04-20/movie265.git*
+
+After cloning, move to the cloned directory
+
+*cd movie265*
+
+Then run the following command to install all the dependencies
+
+*npm install*
+
+After successful dependencies installations, run the following command to start server
+
+*npm run dev*
