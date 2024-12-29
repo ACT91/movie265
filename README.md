@@ -23,4 +23,4 @@ After successful dependencies installations, run the following command to start 
 
 # Successful installation
 You will see following home page upon successful installation
-<img src="./public/movie265.png" alt="movie265"/>
+![Movie265](images/movie265.png)
