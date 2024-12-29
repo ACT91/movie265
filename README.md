@@ -20,3 +20,7 @@ Then run the following command to install all the dependencies
 After successful dependencies installations, run the following command to start server
 
 *npm run dev*
+
+# Successful installation
+You will see following home page upon successful installation
+![Movie265](/public//movie265.png)
