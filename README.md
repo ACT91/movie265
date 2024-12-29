@@ -4,6 +4,7 @@ Welcome to  **MOVIE265**, a trial project.
 ## Prerequisite
 you need to have *nodejs* installed, you can follow the folliwng link [nodejs](https://nodejs.org/en/download/)
 
+# Steps to follow
 Inorder to start, clone the repository by writing the following command in your desired directory
 
 *git clone https://github.com/BSC-04-20/movie265.git*
