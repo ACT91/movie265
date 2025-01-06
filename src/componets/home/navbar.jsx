@@ -25,7 +25,7 @@ export default function NavBar(){
                         <span>Action</span>
                         <span>Romance</span>
                         <NavLink to="/cartoons" className={({isActive}) => isActive ? "hover:text-red-400 text-red-700 font-medium p-1" : "hover:text-red-400 font-medium p-1 "}>Cartoons</NavLink>
-                        <span>Horror</span>
+                        <NavLink to="/horror" className={({isActive}) => isActive ? "hover:text-red-400 text-red-700 font-medium p-1" : "hover:text-red-400 font-medium p-1 "}>Horror</NavLink>
                     </div>
 
                 {/* This is for desktops from 1024px  */}
@@ -34,7 +34,7 @@ export default function NavBar(){
                         <span>Action</span>
                         <span>Romance</span>
                         <NavLink to="/cartoons" className={({isActive}) => isActive ? "hover:bg-red-400 bg-red-800 font-medium h-full p-1 hover:rounded-lg" : "hover:bg-red-400 font-medium p-1 rounded-lg"}>Cartoons</NavLink>
-                        <span>Horror</span>
+                        <NavLink to="/horror" className={({isActive}) => isActive ? "hover:bg-red-400 bg-red-800 font-medium h-full p-1 hover:rounded-lg" : "hover:bg-red-400 font-medium p-1 rounded-lg"}>Horror</NavLink>
                 </div>
             </div>
         </>
