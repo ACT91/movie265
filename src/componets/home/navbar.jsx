@@ -31,7 +31,7 @@ export default function NavBar(){
                 {/* This is for desktops from 1024px  */}
                 <div className="hidden lg:flex lg:flex-row lg:items-center lg:justify-end lg:space-x-5 lg:text-lg lg:text-white lg:h-full lg:mr-10 lg:ml-auto">
                         <NavLink to="/" className={({isActive}) => isActive ? "hover:bg-red-400 bg-red-700 font-medium h-full p-1 hover:rounded-lg" : "hover:bg-red-400 font-medium p-1 rounded-lg"}>Home</NavLink>
-                        <span>Action</span>
+                        <NavLink to="/action" className={({isActive}) => isActive ? "hover:text-red-400 text-red-700 font-medium p-1" : "hover:text-red-400 font-medium p-1 "}>Action</NavLink>
                         <span>Romance</span>
                         <NavLink to="/cartoons" className={({isActive}) => isActive ? "hover:bg-red-400 bg-red-800 font-medium h-full p-1 hover:rounded-lg" : "hover:bg-red-400 font-medium p-1 rounded-lg"}>Cartoons</NavLink>
                         <span>Horror</span>
