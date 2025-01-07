@@ -3,6 +3,7 @@ import Home from "../pages/home";
 import Cartoons from "../pages/cartoons";
 import Romance from "../pages/Romance";
 import Horror from "../pages/horror";
+import Action from "../pages/action";
 
 const router = createBrowserRouter([
     {
@@ -18,7 +19,10 @@ const router = createBrowserRouter([
         element:<Romance/>},
     {
         path:"/horror",
-        element:<Horror/>
+        element:<Horror/>},
+    {
+        path:"/action",
+        element:<Action/> 
     }
 
 ])
