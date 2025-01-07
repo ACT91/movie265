@@ -1,6 +1,6 @@
 import NavBar from "../componets/home/navbar";
 import HerosSearchBar from "../componets/home/SearchBar";
-import HorrorPic from "../../public/horror_pic.jpeg"
+import HorrorPic from "../../public/conjuring.png"
 
 export default function Horror(){
     return(
