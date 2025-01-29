@@ -8,7 +8,7 @@ export default function Horror(){
     // const [results, setResults] = useState([])
     // const fetch = async () => {
     //     try{
-    //         const res = await urlHorror("/popular")
+    //         const res = await urlHorror("/top_rated")
     //         console.log(res.page.results)
 
     //         setResults(res.page.results)
