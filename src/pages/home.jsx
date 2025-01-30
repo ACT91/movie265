@@ -7,7 +7,7 @@ export default function Home(){
 
     const fetcher = async () => {
         try{
-            const res = await urlFetcher("/popular")
+            const res = await urlFetcher("/popular?api_key=ce409c66e36935042e91958e34df5d11")
             console.log(res)
         }
         catch(error){
